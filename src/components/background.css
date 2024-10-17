@@ -1,0 +1,33 @@
+.backgroundStyle {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-image: url('../img/background.png');
+    display: block;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+  }
+
+.logoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;  /* Covers the full width of backgroundStyle */
+    height: 100%;
+}
+
+.logoStyle{
+    width: 50vw;
+    height: 40.2vh; 
+    position: relative;
+    background-image: url('../img/logo.svg');
+    display: block;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}

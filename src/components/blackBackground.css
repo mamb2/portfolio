@@ -1,0 +1,13 @@
+.blackBackgroundStyle {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-image: url('../img/blackBackground.png');
+    display: block;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(18, 18, 18);
+  }

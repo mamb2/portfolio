@@ -1,0 +1,59 @@
+.button {
+    display: inline-flex;
+    height: 45px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px; /* Derived from 150% of 14px */
+    text-transform: uppercase;
+    transition: color 0.3s, font-size 0.3s;
+    background-color: transparent;
+    border: none; /* Removes any border */
+    outline: none; /* Removes any outline */
+    cursor: pointer;
+}
+
+label{
+    cursor: pointer;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.default.enabled{
+    color: var(--green-70,#717932);
+}
+
+.default.enabled:hover label {
+    color: var(--blue0, #091763);
+    font-size: 16px;
+}
+
+.default.selected{
+    color: var(--green-90, #17180A);
+    font-weight: 700;
+
+}
+
+.dark.enabled{
+    color: var(--green-30, var(--green, #E2F163));
+}
+
+.dark.enabled:hover label{
+    color: var(--blue90, #E6E8EF);
+    font-size: 16px;
+}
+
+.dark.selected{
+    color: var(--green-90, var(--green, #FCFEEF));
+    font-weight: 700;
+}
+
+
